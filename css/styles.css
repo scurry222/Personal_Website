@@ -1,0 +1,212 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+@font-face {
+  font-family: "Bock";
+  src: url("Bock.otf") format ("opentype") 
+}
+
+ :root {
+  --color1: #0B0C10;
+  --color2: #1F2833;
+  --color2-dark: rgb(27, 35, 45);
+  --color3: rgb(211, 222, 237);
+  --color4: #66FCF1;
+  --color4-dark: rgb(80, 198, 190);
+  --color5: #45A29E;
+  --color6: rgb(27, 34, 45);
+  --color7: rgb(27, 31, 45);
+}
+
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+  height: 80vh;
+}
+
+header {
+  background: var(--color2);
+}
+
+a {
+  color: var(--color4);
+}
+
+a:hover {
+  color: var(--color4-dark);
+}
+
+hr {
+  border-top: 3px solid var(--color4);
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+.intro {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#about {
+  background-color: var(--color6);
+}
+
+#technologies {
+  background-color: var(--color7);
+}
+
+/* .container {
+  width: 1000px;
+} */
+
+.nav-link:hover {
+  color: rgba(102, 252, 242, 0.726)!important;
+}
+
+.bock {
+  font-family: 'Bock';
+}
+
+.huge {
+  font-size: 12.5rem;
+}
+
+.big {
+  font-size: 3rem;
+}
+
+.fa {
+  font-size: 4rem;
+  color: var(--color4);
+}
+
+.bg-1 {
+  background: var(--color1)!important;
+}
+
+.bg-2 {
+  background: var(--color2-dark)!important;
+}
+
+.text-3 {
+  color: var(--color3) !important;
+  background-size: 400% auto;
+}
+
+.text-4 {
+  color: var(--color4)!important;
+}
+
+.text-5 {
+  color: var(--color5)!important;
+}
+
+.tech {
+  text-transform: uppercase;
+}
+
+.shimmer {
+  background-image: linear-gradient(45deg, white 25%, #fde071 37.5%, var(--color4), white 75%);
+  background-size: 80%;
+  animation: shine 10s linear infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: rgba(102, 252, 242, 0.548);
+}
+
+
+.shiny {
+  background-image: -webkit-linear-gradient(left, var(--color4) 25%, rgb(156, 255, 248) 37.5%, rgb(193, 252, 248), rgb(255, 255, 255) 62.5%, var(--color4) 75%);
+  background-image: linear-gradient(45deg, var(--color4) 25%, rgb(156, 255, 248) 37.5%, rgb(193, 252, 248), rgb(255, 255, 255) 62.5%, var(--color4) 75%);
+  background-position: right center;
+  background-size: 700% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: var(--color4);
+  -webkit-text-fill-color: transparent;
+  /* transition: color 200ms linear; */
+
+}
+
+.shiny:hover {
+  background-position: left center;
+  color: var(--color4);
+  transition: background-position 1100ms linear;
+  transform: scale(1.1);
+}
+
+.ease-in {
+  animation: 1s ease-out appear;
+}
+
+.float {
+  -webkit-animation:'float' 2s infinite ease-in-out;
+  animation: 'float' 2s infinite ease;
+  /* backface-visibility: visible; */
+  animation-fill-mode: both;
+  animation-delay: 10s;
+  /* animation-direction: reverse; */
+
+}
+
+.img {
+  width: 8rem;
+  height: 8rem;
+  background-size: 8rem auto;
+  background-repeat: no-repeat;
+}
+
+#pro-pic {
+  background-image: url('/images/Pro_pic_1MB.jpg');
+}
+
+@keyframes shine {
+  0% {
+    background-position: -1200%;
+  }
+  100% {
+    background-position: 1200%;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(25px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+  /* 100% {
+    transform: translateY(0);
+  } */
+}
