@@ -268,14 +268,14 @@ ul li {
 }
 
 .img {
-  width: 8rem;
-  height: 8rem;
-  background-size: 8rem auto;
+  width: 15rem;
+  height: 15rem;
+  background-size: 15rem;
   background-repeat: no-repeat;
 }
 
 #pro-pic {
-  background-image: url('/static/images/Pro_pic_1MB.jpg');
+  background-image: url('/static/images/awesome_pic.jpg');
 }
 
 @keyframes shine {
