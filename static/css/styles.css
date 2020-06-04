@@ -14,15 +14,14 @@
 
 @font-face {
   font-family: 'procrasinatingpixieregular';
-  src: url('https://scout-curry.herokuapp.com/static/fonts/ProcrastinatingPixie-WyVOO.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-
-}
+  src: url("https://scout-curry.herokuapp.com/static/fonts/ProcrastinatingPixie-WyVOO.eot") format('truetype'),/* EOT file for IE */
+      url("https://scout-curry.herokuapp.com/static/fonts/ProcrastinatingPixie-WyVOO.ttf") format('truetype');/* TTF file for CSS3 browsers */
+ }
 
 @font-face {
   font-family: 'plat_nomorregular';
   src: url('https://scout-curry.herokuapp.com/static/fonts/platnomor-wyvnn-webfont.woff') format('woff2'),
+       url('https://scout-curry.herokuapp.com/static/fonts/platnomor-wyvnn-webfont.ttf') format('truetype'),
        url('https://scout-curry.herokuapp.com/static/fonts/platnomor-wyvnn-webfont.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -32,6 +31,7 @@
 @font-face {
   font-family: 'bockregular';
   src: url('https://scout-curry.herokuapp.com/static/fonts/bock-ljjg-webfont.woff2') format('woff2'),
+  url('https://scout-curry.herokuapp.com/static/fonts/bock-ljjg-webfont.ttf') format('truetype'),
        url('https://scout-curry.herokuapp.com/static/fonts/bock-ljjg-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -41,6 +41,7 @@
 @font-face {
   font-family: 'typographicaregular';
   src: url('https://scout-curry.herokuapp.com/static/fonts/typographica-blp5-webfont.woff2') format('woff2'),
+  url('https://scout-curry.herokuapp.com/static/fonts/typographica-blp5-webfont.ttf') format('truetype'),
        url('https://scout-curry.herokuapp.com/static/fonts/typographica-blp5-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
