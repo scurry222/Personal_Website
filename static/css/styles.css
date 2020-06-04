@@ -6,7 +6,13 @@
 
 @font-face {
   font-family: "Bock";
-  src: url("Bock.otf") format ("opentype") 
+  src: url("Bock.otf") format ("opentype"),
+       url("ProcrastinatingPixie-WyVOO.ttf") format ("truetype"),
+       url("Azonix-1VB0.otf") format ("opentype"),
+       url("PlatNomor-WyVnn.ttf") format("truetype"),
+       url("PlatNomor-eZ2dm.otf") format("opentype"),
+       url("Typographica-Blp5.ttf") format("truetype");
+
 }
 
  :root {
@@ -14,6 +20,7 @@
   --color2: #1F2833;
   --color2-dark: rgb(27, 35, 45);
   --color3: rgb(211, 222, 237);
+  --color35: rgb(164, 172, 184);
   --color4: #66FCF1;
   --color4-light: rgb(186, 255, 250);
   --color4-dark: rgb(80, 198, 190);
@@ -35,7 +42,7 @@ section {
 
 header {
   /* background: var(--color2); */
-  background-image: radial-gradient(circle, rgba(27, 31, 45, 1)0%,rgba(27, 31, 45)20%, rgba(27, 31, 45, 0.99)40%, rgba(27, 31, 45, 0.9)70%, rgba(27, 31, 45, 0.85)80%, rgba(27, 31, 45, 0.7)100%), url(/images/js-code-background.jpg);
+  background-image: radial-gradient(circle, rgba(27, 31, 45, 1)0%,rgba(27, 31, 45)20%, rgba(27, 31, 45, 0.99)40%, rgba(27, 31, 45, 0.9)70%, rgba(27, 31, 45, 0.85)80%, rgba(27, 31, 45, 0.7)100%), url(/static/images/js-code-background.jpg);
 
 }
 
@@ -62,6 +69,10 @@ ul li {
   font-size: var(--normal-text);
 }
 
+.md-opacity {
+  opacity: 0.8;
+}
+
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
   color: var(--color4) !important;
 }
@@ -84,31 +95,27 @@ ul li {
 }
 
 #about {
-  background-image: linear-gradient(to right bottom, rgba(31, 40, 51, 0.399), #1F2833),url(/images/red-dead-2-background.jpg);
-  /* background-image: radial-gradient(circle, rgba(27, 31, 45, 1)0%,rgba(27, 31, 45)20%, rgba(27, 31, 45, 0.99)50%, rgba(27, 31, 45, 0.9)80%, rgba(27, 31, 45, 0.85)90%, rgba(27, 31, 45, 0.75)100%), url(/images/red-dead-2-background.jpg); */
+  background-image: linear-gradient(to right bottom, rgba(31, 40, 51, 0.399), #1F2833),url(/static/images/red-dead-2-background.jpg);
   background-size: cover;
 }
 
 #technologies {
-  background-image: radial-gradient(circle, rgba(27, 31, 45, .99)0%,rgba(27, 31, 45, .95)20%, rgba(27, 31, 45, 0.95)50%, rgba(27, 31, 45, 0.8)80%, rgba(27, 31, 45, 0.7)90%, rgba(27, 31, 45, 0.45)100%), url(/images/technology.jpg);
+  background-image: radial-gradient(circle, rgba(27, 31, 45, 1)0%,rgba(27, 31, 45)20%, rgba(27, 31, 45, 0.99)40%, rgba(27, 31, 45, 0.9)70%, rgba(27, 31, 45, 0.85)80%, rgba(27, 31, 45, 0.7)100%), url(/static/images/technology.jpg);
   background-position: top;
   background-size: cover;
   position: relative;
-  /* background: url('/images/js-code-background.jpg'); */
-  /* opacity: 0.5; */
 }
 
 #projects {
-  background-color: var(--color2);
+  background-image: linear-gradient(to right, rgba(27, 31, 45, .3)0%,rgba(27, 31, 45, .7)10%, rgba(27, 31, 45, .95)20%, rgba(27, 31, 45, 0.99)50%, rgba(27, 31, 45, 0.95)80%, rgba(27, 31, 45, 0.7)90%,rgba(27, 31, 45, 0.3)100%), url(/static/images/geometry.jpg);
+  background-position: top;
+  background-size: cover;
+  position: relative;
 }
 
 #footer {
   background-color: var(--color1);
 }
-
-/* .container {
-  width: 1000px;
-} */
 
 .nav-link:hover {
   color: rgba(102, 252, 242, 0.726)!important;
@@ -168,6 +175,10 @@ ul li {
   background-size: 400% auto;
 }
 
+.text-35 {
+  color: var(--color35) !important;
+}
+
 .text-4 {
   color: var(--color4)!important;
 }
@@ -199,7 +210,6 @@ ul li {
   background-clip: text;
   color: var(--color4);
   -webkit-text-fill-color: transparent;
-  /* transition: color 200ms linear; */
 
 }
 
@@ -217,11 +227,8 @@ ul li {
 .float {
   -webkit-animation:'float' 2s infinite ease-in-out;
   animation: 'float' 2s infinite ease;
-  /* backface-visibility: visible; */
   animation-fill-mode: both;
   animation-delay: 10s;
-  /* animation-direction: reverse; */
-
 }
 
 .img {
@@ -232,7 +239,7 @@ ul li {
 }
 
 #pro-pic {
-  background-image: url('/images/Pro_pic_1MB.jpg');
+  background-image: url('/static/images/Pro_pic_1MB.jpg');
 }
 
 @keyframes shine {
@@ -265,7 +272,4 @@ ul li {
   100% {
     transform: translateY(0);
   }
-  /* 100% {
-    transform: translateY(0);
-  } */
 }

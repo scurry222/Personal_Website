@@ -10,15 +10,22 @@
 
   <title>Scout</title>
   <script src="https://kit.fontawesome.com/fcb73fe9bd.js" crossorigin="anonymous"></script>
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+  <!-- Bootstrap Core CSS -->
 
-  <link href="css/styles.css" rel="stylesheet">
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <link href="/static/css/styles.css" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="/static/images/logo.png">
 
 </head>
 
 <body id="page-top">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-2 fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-2 md-opacity fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger pixie text-4 md-l-space" href="#page-top">SCOUT CURRY</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -125,35 +132,54 @@
       <div class="row m-auto">
         <div class=" col-10 col-lg-10 mx-auto">
           <div class="row d-flex align-items-center justify-content-around">
-            <h1 class="text-4 col-md-12 col-lg-4 text-center">TwoDoor</h1>
-            <h5 class="text-4 col-12 text-center">| JavaScript, JQuery, HTML & CSS, Firebase, D3 |</h5>
+            <h1 class="text-4 col-md-12 col-lg-4 text-center"><a href="https://github.com/arthurdamm/twodoor">TwoDoor</a></h1>
+            <h5 class="text-35 col-12 text-center">| JavaScript, JQuery, HTML & CSS, Firebase, D3 |</h5>
             <p class="lead text-white col-md-12 col-lg-8">TwoDoor is an adaptive Flashcard Tutoring app created in just two weeks using agile development. What makes it unique is its intelligent card selection algorithm, which is an implementation of the <a href="https://en.wikipedia.org/wiki/Leitner_system">Lietner system.</a>
               We achieved user authentication and a database, so the user can create their own persisting custom decks. We used <a href="https://firebase.google.com/">Firebase</a> for its compatability with various platforms and lightweight interface.
             <br><br>
               Once we had a working backend, we moved to implementing Holberton's API into our app. The API gave us access to our peer's names and faces, which we used to render decks based on cohort. We marketed this feature as a way to remember our peers from across the globe.
             </p>
-            <img src="/images/TwoDoor_Demo.gif" alt="TwoDoor gif" class=" col-md-12 col-lg-6">
+            <div class="gif-captions col-md-12 col-lg-5 m-auto">
+              <p class="text-4 text-center"><a href="https://github.com/arthurdamm/twodoor">TwoDoor</a></p>
+              <img src="/static/images/TwoDoor_Demo.gif" alt="TwoDoor gif" class="w-100">
+
+              <p class="text-35 text-center">Example of the gameplay. Notice as the deck adds new cards as you get the answers correct.</p>
+            </div>
           </div>
         </div>
         <div class="col-10 col-lg-10 mx-auto pt-5 mt-5">
-          <div class="row d-flex align-items-center justify-content-around">
-            <h1 class="text-4 col-md-12 col-lg-4 text-center">Front End</h1>
-            <h5 class="text-4 col-12 text-center">| JavaScript, JQuery, Bootstrap, HTML & CSS, SCSS |</h5>
+          <div class="row d-flex justify-content-around">
+            <h1 class="text-4 col-md-12 col-lg-4 text-center"><a href="https://github.com/scurry222/holbertonschool-web_front_end">Front End</a></h1>
+            <h5 class="text-35 col-12 text-center">| JavaScript, JQuery, Bootstrap, HTML & CSS, SCSS |</h5>
             <p class="lead text-white col-md-12 col-lg-8">
               I spent 3 months to hone my front-end skills. I've covered the nitty gritty of HTML & CSS, such as the usages of all tags and complex animations. During this time I worked heavily in JavaScript, learning more of its crazy goodness. My favorite concept is DOM manipulation and I sometimes make little minigames in the browser in my free time. I am very comfortable with jQuery at this point, and am now focusing on learning all of the intricacies of React.
             </p>
-            <img src="/images/Implement_a_design_from_scratch_demo.gif" alt="HTML&CSS gif" class=" col-md-12 col-lg-6">
-            <img src="/images/smile_school_demo.gif" alt="Bootstrap&js gif" class=" col-md-12 col-lg-6">
+            <div class="gif-captions col-md-12 col-lg-5 m-auto">
+              <p class="text-4 text-center"><a href="https://github.com/scurry222/holbertonschool-web_front_end/tree/master/0x09-implement_a_design_from_scratch">Design from Scratch</a></p>
+              <img src="/static/images/Implement_a_design_from_scratch_demo.gif" alt="HTML&CSS gif" class="w-100">
+              <p class="text-35 text-center">HTML and SCSS only project with fun animations.</p>
+            </div>
+            <div class="gif-captions col-md-12 col-lg-5 m-auto">
+              <p class="text-4 text-center"><a href="https://github.com/scurry222/holberton-smiling-school-javascript">Holberton-Smiling School Javascript</a></p>
+              <img src="/static/images/smile_school_demo.gif" alt="Bootstrap&js gif" class="w-100">
+              <p class="text-35 text-center">Bootstrap and JavaScript heavy, with light CSS. Create custom carousels, search-bar filteration, and perfect responsiveness.</p>
+            </div>
           </div>
         </div>
         <div class="col-10 col-lg-10 mx-auto mt-5 pt-5">
           <div class="row d-flex align-items-center justify-content-around">
-            <h1 class="text-4 col-md-12 col-lg-4 text-center">Back End</h1>
-            <h5 class="text-4 col-12 text-center">| Python3, Flask, SQLAlchemy, Django |</h5>
+            <h1 class="text-4 col-md-12 col-lg-4 text-center"><a href="https://github.com/scurry222/holbertonschool-web_back_end">Back End</a></h1>
+            <h5 class="text-35 col-12 text-center">| Python3, Flask, SQLAlchemy, Django |</h5>
             <p class="lead text-white col-md-12 col-lg-8">
-              In the first year of Holberton, we were taught how to write complex algorithms in Python2 and build simple applications in Flask. Now, im broadening those skills to learn how to write code more efficiently in Python3, as well as advanced concepts of browser applications. This includes authentication, caching, asyncronous functions, and pagination.
+              In the first year of Holberton, we were taught how to write complex algorithms in Python2 and build simple applications in Flask. Now, im broadening those skills to learn how to write code more efficiently in Python3, as well as advanced concepts of browser applications. This includes authentication, caching, asyncronous functions, cookies, local storage, and pagination.
               <br>
             </p>
+          </div>
+          <div class="row">
+            <h3 class="mx-auto"><a href="https://github.com/scurry222/holbertonschool-web_back_end/tree/master/0x07-Session_authentication">Session Authentication</a></h3>
+            <h3 class="mx-auto"><a href="https://github.com/scurry222/holbertonschool-web_back_end/tree/master/0x01-python_async_function">Async functions</a></h3>
+            <h3 class="mx-auto"><a href="https://github.com/scurry222/holbertonschool-web_back_end/tree/master/0x04-pagination">Pagination</a></h3>
+            <h3 class="mx-auto"><a href="https://github.com/scurry222/holbertonschool-web_front_end/tree/master/0x0E-Cookies_local_storage">Cookies & Local Storage</a></h3>
           </div>
         </div>
       </div>
@@ -164,7 +190,6 @@
       <div class="d-sm-block d-md-flex justify-content-between align-items-center">
         <div class="col-sm-12 col-md-6 text-center text-md-left">
           <a class="navbar-brand js-scroll-trigger pixie text-4 md-l-space medium" href="#page-top">SCOUT CURRY</a>
-          <img src="images/logo.png" width="200" height="50" alt="" />
         </div>
         <ul class="d-flex justify-content-center col-sm-12 col-md-4 col-lg-3 mt-3">
           <li class="social-item mx-3">
@@ -190,15 +215,25 @@
     </div>
   </footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+
+
+  <!-- jQuery -->
+  <script src="/static/js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="/static/js/bootstrap.min.js"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="/static/js/jquery.easing.min.js"></script>
 
   <!-- Custom JavaScript for this theme -->
-  <script src="js/scripts.js"></script>
+  <script src="../static/js/scripts.js"></script>
 
 </body>
 
