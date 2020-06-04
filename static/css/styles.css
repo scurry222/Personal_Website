@@ -233,6 +233,9 @@ ul li {
   -webkit-text-fill-color: rgba(102, 252, 242, 0.548);
 }
 
+.social-link {
+  font-size: 3.5rem;
+}
 
 .shiny {
   background-image: -webkit-linear-gradient(left, var(--color4) 25%, rgb(156, 255, 248) 37.5%, rgb(193, 252, 248), rgb(255, 255, 255) 62.5%, var(--color4) 75%);
