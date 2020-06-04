@@ -3,15 +3,47 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+ @font-face {
+  font-family: 'azonixregular';
+  src: url('https://scout-curry.herokuapp.com/static/fonts/azonix-1vb0-webfont.woff2') format('woff2'),
+       url('https://scout-curry.herokuapp.com/static/fonts/azonix-1vb0-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 @font-face {
-  font-family: "Bock";
-  src: url("Bock.otf") format ("opentype"),
-       url("ProcrastinatingPixie-WyVOO.ttf") format ("truetype"),
-       url("Azonix-1VB0.otf") format ("opentype"),
-       url("PlatNomor-WyVnn.ttf") format("truetype"),
-       url("PlatNomor-eZ2dm.otf") format("opentype"),
-       url("Typographica-Blp5.ttf") format("truetype");
+  font-family: 'procrasinatingpixieregular';
+  src: url('https://scout-curry.herokuapp.com/static/fonts/ProcrastinatingPixie-WyVOO.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'plat_nomorregular';
+  src: url('https://scout-curry.herokuapp.com/static/fonts/platnomor-wyvnn-webfont.woff') format('woff2'),
+       url('https://scout-curry.herokuapp.com/static/fonts/platnomor-wyvnn-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'bockregular';
+  src: url('https://scout-curry.herokuapp.com/static/fonts/bock-ljjg-webfont.woff2') format('woff2'),
+       url('https://scout-curry.herokuapp.com/static/fonts/bock-ljjg-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'typographicaregular';
+  src: url('https://scout-curry.herokuapp.com/static/fonts/typographica-blp5-webfont.woff2') format('woff2'),
+       url('https://scout-curry.herokuapp.com/static/fonts/typographica-blp5-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
@@ -122,19 +154,19 @@ ul li {
 }
 
 .bock {
-  font-family: 'Bock';
+  font-family: 'bockregular';
 }
 
 .pixie {
-  font-family: 'Procrastinating Pixie';
+  font-family: 'procrasinatingpixieregular';
 }
 
 .azonix {
-  font-family: 'Azonix';
+  font-family: 'azonixregular';
 }
 
 .plat-nomor {
-  font-family: 'Plat Nomor';
+  font-family: 'plat_nomorregular';
 }
 
 .lg-l-space {
