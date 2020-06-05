@@ -1,4 +1,4 @@
- @font-face {
+  @font-face {
   font-family: 'azonixregular';
   src: url('http://www.scoutcurry.com/static/fonts/azonix-1vb0-webfont.woff2') format('woff2'),
        url('http://www.scoutcurry.com/static/fonts/azonix-1vb0-webfont.woff') format('woff');
@@ -262,6 +262,7 @@ ul li {
   animation-delay: 10s;
 }
 
+
 .img {
   width: 8rem;
   height: 8rem;
@@ -302,5 +303,27 @@ ul li {
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+
+  .huge {
+    font-size: 7rem;
+  }
+  h3 {
+    font-size: 2rem!important;
+  }
+  .display-3 {
+    font-size: 2rem!important;
+  }
+  a.medium {
+    font-size: 1.5rem;
+  }
+  .img {
+    width: 6rem;
+    height: 4rem;
+    background-size: 4rem;
   }
 }
