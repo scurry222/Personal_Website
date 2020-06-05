@@ -97,10 +97,6 @@ ul li {
   font-size: var(--normal-text);
 }
 
-.md-opacity {
-  opacity: 0.8;
-}
-
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
   color: var(--color4) !important;
 }
@@ -196,6 +192,10 @@ ul li {
 
 .bg-2 {
   background: var(--color2-dark)!important;
+}
+
+.bg-opacity-2 {
+  background: rgb(27, 35, 45, 0.95);
 }
 
 .text-3 {
@@ -306,7 +306,7 @@ ul li {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 575px) {
 
 
   .huge {
@@ -320,10 +320,5 @@ ul li {
   }
   a.medium {
     font-size: 1.5rem;
-  }
-  .img {
-    width: 6rem;
-    height: 4rem;
-    background-size: 4rem;
   }
 }
