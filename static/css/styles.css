@@ -1,12 +1,7 @@
-/*!
- * Start Bootstrap - Scrolling Nav (www.scoutcurry.coms://startbootstrap.com/template-overviews/scrolling-nav)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (www.scoutcurry.coms://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
- */
  @font-face {
   font-family: 'azonixregular';
-  src: url('www.scoutcurry.com/static/fonts/azonix-1vb0-webfont.woff2') format('woff2'),
-       url('www.scoutcurry.com/static/fonts/azonix-1vb0-webfont.woff') format('woff');
+  src: url('http://www.scoutcurry.com/static/fonts/azonix-1vb0-webfont.woff2') format('woff2'),
+       url('http://www.scoutcurry.com/static/fonts/azonix-1vb0-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -14,15 +9,15 @@
 
 @font-face {
   font-family: 'procrasinatingpixieregular';
-  src: url("www.scoutcurry.com/static/fonts/ProcrastinatingPixie-WyVOO.eot") format('truetype'),/* EOT file for IE */
-      url("www.scoutcurry.com/static/fonts/ProcrastinatingPixie-WyVOO.ttf") format('truetype');/* TTF file for CSS3 browsers */
+  src: url("http://www.scoutcurry.com/static/fonts/ProcrastinatingPixie-WyVOO.eot") format('truetype'),/* EOT file for IE */
+      url("http://www.scoutcurry.com/static/fonts/ProcrastinatingPixie-WyVOO.ttf") format('truetype');/* TTF file for CSS3 browsers */
  }
 
 @font-face {
   font-family: 'plat_nomorregular';
-  src: url('www.scoutcurry.com/static/fonts/platnomor-wyvnn-webfont.woff') format('woff2'),
-       url('www.scoutcurry.com/static/fonts/platnomor-wyvnn-webfont.ttf') format('truetype'),
-       url('www.scoutcurry.com/static/fonts/platnomor-wyvnn-webfont.woff2') format('woff');
+  src: url('http://www.scoutcurry.com/static/fonts/platnomor-wyvnn-webfont.woff') format('woff2'),
+       url('http://www.scoutcurry.com/static/fonts/platnomor-wyvnn-webfont.ttf') format('truetype'),
+       url('http://www.scoutcurry.com/static/fonts/platnomor-wyvnn-webfont.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -30,9 +25,9 @@
 
 @font-face {
   font-family: 'bockregular';
-  src: url('www.scoutcurry.com/static/fonts/bock-ljjg-webfont.woff2') format('woff2'),
-  url('www.scoutcurry.com/static/fonts/bock-ljjg-webfont.ttf') format('truetype'),
-       url('www.scoutcurry.com/static/fonts/bock-ljjg-webfont.woff') format('woff');
+  src: url('http://www.scoutcurry.com/static/fonts/bock-ljjg-webfont.woff2') format('woff2'),
+  url('http://www.scoutcurry.com/static/fonts/bock-ljjg-webfont.ttf') format('truetype'),
+       url('http://www.scoutcurry.com/static/fonts/bock-ljjg-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -40,9 +35,9 @@
 
 @font-face {
   font-family: 'typographicaregular';
-  src: url('www.scoutcurry.com/static/fonts/typographica-blp5-webfont.woff2') format('woff2'),
-  url('www.scoutcurry.com/static/fonts/typographica-blp5-webfont.ttf') format('truetype'),
-       url('www.scoutcurry.com/static/fonts/typographica-blp5-webfont.woff') format('woff');
+  src: url('http://www.scoutcurry.com/static/fonts/typographica-blp5-webfont.woff2') format('woff2'),
+  url('http://www.scoutcurry.com/static/fonts/typographica-blp5-webfont.ttf') format('truetype'),
+       url('http://www.scoutcurry.com/static/fonts/typographica-blp5-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
