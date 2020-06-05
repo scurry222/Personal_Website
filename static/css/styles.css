@@ -1,12 +1,12 @@
 /*!
- * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Start Bootstrap - Scrolling Nav (www.scoutcurry.coms://startbootstrap.com/template-overviews/scrolling-nav)
  * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ * Licensed under MIT (www.scoutcurry.coms://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
  @font-face {
   font-family: 'azonixregular';
-  src: url('https://scout-curry.herokuapp.com/static/fonts/azonix-1vb0-webfont.woff2') format('woff2'),
-       url('https://scout-curry.herokuapp.com/static/fonts/azonix-1vb0-webfont.woff') format('woff');
+  src: url('www.scoutcurry.com/static/fonts/azonix-1vb0-webfont.woff2') format('woff2'),
+       url('www.scoutcurry.com/static/fonts/azonix-1vb0-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -14,15 +14,15 @@
 
 @font-face {
   font-family: 'procrasinatingpixieregular';
-  src: url("https://scout-curry.herokuapp.com/static/fonts/ProcrastinatingPixie-WyVOO.eot") format('truetype'),/* EOT file for IE */
-      url("https://scout-curry.herokuapp.com/static/fonts/ProcrastinatingPixie-WyVOO.ttf") format('truetype');/* TTF file for CSS3 browsers */
+  src: url("www.scoutcurry.com/static/fonts/ProcrastinatingPixie-WyVOO.eot") format('truetype'),/* EOT file for IE */
+      url("www.scoutcurry.com/static/fonts/ProcrastinatingPixie-WyVOO.ttf") format('truetype');/* TTF file for CSS3 browsers */
  }
 
 @font-face {
   font-family: 'plat_nomorregular';
-  src: url('https://scout-curry.herokuapp.com/static/fonts/platnomor-wyvnn-webfont.woff') format('woff2'),
-       url('https://scout-curry.herokuapp.com/static/fonts/platnomor-wyvnn-webfont.ttf') format('truetype'),
-       url('https://scout-curry.herokuapp.com/static/fonts/platnomor-wyvnn-webfont.woff2') format('woff');
+  src: url('www.scoutcurry.com/static/fonts/platnomor-wyvnn-webfont.woff') format('woff2'),
+       url('www.scoutcurry.com/static/fonts/platnomor-wyvnn-webfont.ttf') format('truetype'),
+       url('www.scoutcurry.com/static/fonts/platnomor-wyvnn-webfont.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -30,9 +30,9 @@
 
 @font-face {
   font-family: 'bockregular';
-  src: url('https://scout-curry.herokuapp.com/static/fonts/bock-ljjg-webfont.woff2') format('woff2'),
-  url('https://scout-curry.herokuapp.com/static/fonts/bock-ljjg-webfont.ttf') format('truetype'),
-       url('https://scout-curry.herokuapp.com/static/fonts/bock-ljjg-webfont.woff') format('woff');
+  src: url('www.scoutcurry.com/static/fonts/bock-ljjg-webfont.woff2') format('woff2'),
+  url('www.scoutcurry.com/static/fonts/bock-ljjg-webfont.ttf') format('truetype'),
+       url('www.scoutcurry.com/static/fonts/bock-ljjg-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -40,9 +40,9 @@
 
 @font-face {
   font-family: 'typographicaregular';
-  src: url('https://scout-curry.herokuapp.com/static/fonts/typographica-blp5-webfont.woff2') format('woff2'),
-  url('https://scout-curry.herokuapp.com/static/fonts/typographica-blp5-webfont.ttf') format('truetype'),
-       url('https://scout-curry.herokuapp.com/static/fonts/typographica-blp5-webfont.woff') format('woff');
+  src: url('www.scoutcurry.com/static/fonts/typographica-blp5-webfont.woff2') format('woff2'),
+  url('www.scoutcurry.com/static/fonts/typographica-blp5-webfont.ttf') format('truetype'),
+       url('www.scoutcurry.com/static/fonts/typographica-blp5-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
