@@ -1,3 +1,5 @@
 # Personal Website
 
-Let's get creative!
+![](images/website.jpg)
+
+Deployed at [www.scoutcurry.com](http://www.scoutcurry.com)
